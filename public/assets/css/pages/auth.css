@@ -1,0 +1,112 @@
+body{background-color:#fff}#auth{height:100vh;overflow-x:hidden}#auth #auth-right{height:100%;background:url(../../images/bg/4853433.jpg),linear-gradient(90deg,#2d499d,#3f5491)}#auth #auth-left{padding:5rem 8rem}#auth #auth-left .auth-title{font-size:4rem;margin-bottom:1rem}#auth #auth-left .auth-subtitle{font-size:1.7rem;line-height:2.5rem;color:#a8aebb}#auth #auth-left .auth-logo{margin-bottom:7rem}#auth #auth-left .auth-logo img{height:2rem}@media screen and (max-width:767px){#auth #auth-left{padding:5rem}}
+
+
+/* public/css/auth.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+    background-image: url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6'); /* ganti dengan background biru kamu */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+    width: 360px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #111;
+    color: #fff;
+    outline: none;
+    font-size: 14px;
+}
+
+input::placeholder {
+    color: #bbb;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+.options a {
+    color: #4e8ef7;
+    text-decoration: none;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    width: 100%;
+    background-color: #4e8ef7;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #356fd9;
+}
+
+.footer-text {
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.footer-text a {
+    color: #4e8ef7;
+    text-decoration: none;
+}
+
+.footer-text a:hover {
+    text-decoration: underline;
+}
